@@ -60,6 +60,12 @@ namespace ExceptionHandlingExercise
             {
                 Console.WriteLine(num);
             }
+            var x = 1;
+            for(;x < 6; x+=2)
+            {
+                x = x * x;
+            }
+            Console.WriteLine(x);
         }
     }
 }
